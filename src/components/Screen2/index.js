@@ -105,7 +105,7 @@ export default class index extends Component {
                 {userSelectErrMessage && <UserError>{userSelectErrMessage}</UserError>}
                 </SelectContainer>
 
-                <PrevButton onClick={() => this.handlePrev()}>Prev</PrevButton>
+                <PrevButton onClick={() => this.handlePrev()}>Back</PrevButton>
                 <NextButton onClick={() => this.handleNext()}>Next</NextButton>
             </ScreenContainer>
         )
