@@ -15,7 +15,7 @@ export default class index extends Component {
     constructor(props){
         super(props)
         this.state = {
-            userNumber:null,
+            userNumber:'',
             userNumberErrMessage: false,
             userSelect: '',
             userSelectErrMessage: null,
