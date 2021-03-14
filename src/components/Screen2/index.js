@@ -61,9 +61,6 @@ export default class index extends Component {
         const { step1, step2, step3} = this.props
         const { userSelect, userSelectErrMessage, userNumberErrMessage} = this.state
 
-        console.log('props', this.props)
-        console.log('state', this.state)
-
         if (userSelect === 'select' || userSelect=== ''){
             this.setState({
                 userSelectErrMessage: 'Please select correct option'
